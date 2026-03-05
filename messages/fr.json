@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "suite": "Suite complète",
+    "js": "Benchmarks JS",
+    "fps": "Canvas FPS",
+    "memory": "Mémoire",
+    "compare": "Comparer",
+    "reports": "Rapports"
+  },
+  "common": {
+    "run": "Lancer",
+    "runAll": "Tout lancer",
+    "cancel": "Annuler",
+    "export": "Exporter",
+    "delete": "Supprimer",
+    "close": "Fermer",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "download": "Télécharger",
+    "loading": "Chargement...",
+    "noData": "Aucune donnée",
+    "stable": "Stable",
+    "moderate": "Modéré",
+    "unstable": "Instable"
+  },
+  "dashboard": {
+    "title": "Micro Benchmark Browser",
+    "subtitle": "Suite de performance navigateur offline-first",
+    "runSuite": "Lancer la suite",
+    "lastScore": "Dernier score",
+    "quickActions": "Actions rapides",
+    "recentRuns": "Runs récents"
+  },
+  "js": {
+    "title": "Benchmarks JavaScript",
+    "description": "Micro-tâches CPU mesurées en ops/s avec Web Workers",
+    "benchmark": "Benchmark",
+    "median": "Médiane",
+    "mean": "Moyenne",
+    "p95": "P95",
+    "stddev": "Écart-type",
+    "stability": "Stabilité",
+    "samples": "Échantillons"
+  },
+  "fps": {
+    "title": "Benchmark Canvas FPS",
+    "description": "Performance de rendu avec graphique temps réel",
+    "scene": "Scène",
+    "avgFps": "FPS moyen",
+    "onePercentLow": "1% bas",
+    "frameTime": "Temps de frame",
+    "objects": "Objets",
+    "running": "Mesure du FPS...",
+    "selectScene": "Sélectionnez une scène à tester"
+  },
+  "memory": {
+    "title": "Benchmark Mémoire",
+    "description": "Sondes d'allocation indicatives",
+    "apiStatus": "API Mémoire",
+    "supported": "Supportée",
+    "notSupported": "Non supportée",
+    "disclaimer": "Les métriques mémoire sont indicatives uniquement. Les API navigateur offrent une observabilité limitée.",
+    "heapUsed": "Heap utilisé",
+    "heapTotal": "Heap total",
+    "allocTime": "Temps d'allocation"
+  },
+  "compare": {
+    "title": "Comparer les runs",
+    "description": "Comparer deux runs de benchmark côte à côte",
+    "baseline": "Référence (Run A)",
+    "current": "Actuel (Run B)",
+    "selectRun": "Sélectionner un run",
+    "delta": "Delta",
+    "better": "Meilleur",
+    "worse": "Pire",
+    "same": "Identique",
+    "overallDelta": "Delta global",
+    "noRuns": "Sauvegardez au moins 2 runs pour comparer"
+  },
+  "reports": {
+    "title": "Rapports & Historique",
+    "description": "Runs sauvegardés avec options d'export",
+    "exportJson": "Exporter JSON",
+    "exportMd": "Exporter Markdown",
+    "copyReport": "Copier le rapport",
+    "setBaseline": "Définir comme référence",
+    "isBaseline": "Référence",
+    "deleteRun": "Supprimer ce run ?",
+    "noRuns": "Aucun run sauvegardé. Lancez une suite pour commencer."
+  },
+  "score": {
+    "title": "Score",
+    "total": "Score total",
+    "breakdown": "Détail",
+    "confidence": "Confiance",
+    "js": "JS CPU",
+    "fps": "Canvas FPS",
+    "memory": "Mémoire"
+  },
+  "suite": {
+    "title": "Suite complète",
+    "description": "Lancer tous les benchmarks : JS, FPS et Mémoire",
+    "phase": "Phase",
+    "jsBenches": "Benchmarks JS",
+    "fpsBenches": "Benchmarks FPS",
+    "memBenches": "Benchmarks Mémoire",
+    "progress": "Progression",
+    "complete": "Suite terminée !"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "suite": "Full Suite",
+    "js": "JS Benchmarks",
+    "fps": "Canvas FPS",
+    "memory": "Memory",
+    "compare": "Compare",
+    "reports": "Reports"
+  },
+  "common": {
+    "run": "Run",
+    "runAll": "Run All",
+    "cancel": "Cancel",
+    "export": "Export",
+    "delete": "Delete",
+    "close": "Close",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "download": "Download",
+    "loading": "Loading...",
+    "noData": "No data yet",
+    "stable": "Stable",
+    "moderate": "Moderate",
+    "unstable": "Unstable"
+  },
+  "dashboard": {
+    "title": "Micro Benchmark Browser",
+    "subtitle": "Offline-first browser performance suite",
+    "runSuite": "Run Full Suite",
+    "lastScore": "Latest Score",
+    "quickActions": "Quick Actions",
+    "recentRuns": "Recent Runs"
+  },
+  "js": {
+    "title": "JavaScript Benchmarks",
+    "description": "CPU micro-tasks measured in ops/s with Web Workers",
+    "benchmark": "Benchmark",
+    "median": "Median",
+    "mean": "Mean",
+    "p95": "P95",
+    "stddev": "StdDev",
+    "stability": "Stability",
+    "samples": "Samples"
+  },
+  "fps": {
+    "title": "Canvas FPS Benchmark",
+    "description": "Rendering performance with live frame-time chart",
+    "scene": "Scene",
+    "avgFps": "Avg FPS",
+    "onePercentLow": "1% Low",
+    "frameTime": "Frame Time",
+    "objects": "Objects",
+    "running": "Measuring FPS...",
+    "selectScene": "Select a scene to benchmark"
+  },
+  "memory": {
+    "title": "Memory Benchmark",
+    "description": "Indicative allocation probes",
+    "apiStatus": "Memory API",
+    "supported": "Supported",
+    "notSupported": "Not Supported",
+    "disclaimer": "Memory metrics are indicative only. Browser APIs provide limited observability.",
+    "heapUsed": "Heap Used",
+    "heapTotal": "Heap Total",
+    "allocTime": "Allocation Time"
+  },
+  "compare": {
+    "title": "Compare Runs",
+    "description": "Compare two benchmark runs side by side",
+    "baseline": "Baseline (Run A)",
+    "current": "Current (Run B)",
+    "selectRun": "Select a run",
+    "delta": "Delta",
+    "better": "Better",
+    "worse": "Worse",
+    "same": "Same",
+    "overallDelta": "Overall Delta",
+    "noRuns": "Save at least 2 runs to compare"
+  },
+  "reports": {
+    "title": "Reports & History",
+    "description": "Saved benchmark runs with export options",
+    "exportJson": "Export JSON",
+    "exportMd": "Export Markdown",
+    "copyReport": "Copy Report",
+    "setBaseline": "Set as Baseline",
+    "isBaseline": "Baseline",
+    "deleteRun": "Delete this run?",
+    "noRuns": "No saved runs yet. Run a suite to get started."
+  },
+  "score": {
+    "title": "Score",
+    "total": "Total Score",
+    "breakdown": "Breakdown",
+    "confidence": "Confidence",
+    "js": "JS CPU",
+    "fps": "Canvas FPS",
+    "memory": "Memory"
+  },
+  "suite": {
+    "title": "Full Suite Runner",
+    "description": "Run all benchmarks: JS, FPS, and Memory",
+    "phase": "Phase",
+    "jsBenches": "JS Benchmarks",
+    "fpsBenches": "FPS Benchmarks",
+    "memBenches": "Memory Benchmarks",
+    "progress": "Progress",
+    "complete": "Suite Complete!"
+  }
+}
